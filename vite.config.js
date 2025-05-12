@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.pdf'], // Ensure PDF files are treated as assets
+  base: '/Personal-Portfolio/', // Match this to your repository name
 })
